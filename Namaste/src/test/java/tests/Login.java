@@ -21,23 +21,23 @@ public class Login extends BaseClass{
 	
 	
 	
-		otpPageObject otpPage=new otpPageObject(driver);
+		
 	@Test(description= "positive_case", priority=0)
 	public void Login_in1() throws InterruptedException {
-		
+		otpPageObject otpPage=new otpPageObject(driver);
 		otpPage.Login("9867530069");
 	
 		}
 		
 
 	
-	  @Test(description= "negative", priority=1) 
-	  public void Login_in2() throws
+	  @Test(description= "negative", priority=1) public void Login_in2() throws
 	  InterruptedException {
-	
+		  otpPageObject otpPage=new otpPageObject(driver);
 	  otpPage.Login("7786777888");
 	  
 	  }
+	 
 	  
 	/*
 	 * @Test(description= "negative", priority=1) public void Login_in3() throws

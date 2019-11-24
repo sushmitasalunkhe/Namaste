@@ -40,6 +40,7 @@ public class BaseClass {
 		
 		URL url =new URL(" http://127.0.1.1:4723/wd/hub");
 		driver= new AndroidDriver(url,caps);
+				  
 		Thread.sleep(5000);
 		
 
